@@ -98,4 +98,4 @@ utah_df.to_csv('utah_elevations.csv', index=False)
 
 {%- endhighlight -%} 
 
-If you have read this far you should now be able to successfully add elevation to your data and be able to visualize your new data! 
+If you have read this far you should now be able to successfully add elevation to your data and be able to visualize your new data! Try following along this tutorial using your own data. *Note that the larger the dataset the longer it will take to get the elevation.* Good luck! ;)
