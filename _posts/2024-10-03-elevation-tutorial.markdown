@@ -27,6 +27,7 @@ print(utah_df.head())
 ## Installing and Importing Pyhigh
 
 The First thing you will need to do to use PyHigh is to install it. I use the built in terminal within PyCharm and run the following line of code:
+
 '''
 pip install pyhigh
 '''
