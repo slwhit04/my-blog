@@ -4,7 +4,7 @@ title:  "How to Use Pyhigh Python Package to access Elevation"
 description: This post will teach you how to use Pyhigh to access and add elevation to your data
 image: /assets/img/blog-image.jpg
 ---
-<p class="intro">Pyhigh is a package in Python that is used to access elevation data that was created by <a href="https://github.com/sgherbst" target="_blank">Steven Herbst</a> on github. This package relies on caching to avoid unecessary downloads.To use this package, your data will need to include a latitude column and a longitude column containing latitiude and longitude coordinates respectively.</p>
+<p class="intro">Pyhigh is a package in Python created by <a href="https://github.com/sgherbst" target="_blank">Steven Herbst</a> on github that allows the user to access elevation data. This package relies on caching to avoid unecessary downloads.To use this package, your data will need to include a latitude column and a longitude column containing latitiude and longitude coordinates respectively.</p>
 
 
 ### Getting Started
