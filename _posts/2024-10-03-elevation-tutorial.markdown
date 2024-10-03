@@ -11,7 +11,7 @@ Pyhigh is a package in Python that is used to access elevation data that was cre
 
 ### Getting Started
 
- To demonstrate how to use each one I will be working with a dataset of Chipotle locations which can be downloaded [Here](https://www.kaggle.com/datasets/jeffreybraun/chipotle-locations).{% endraw %}. I am specifically insterested in Utah locations so after reading in my Chipotle data I will filter my data to only include Utah rows. This can be done as shown below:
+ To demonstrate how to use each one I will be working with a dataset of Chipotle locations which can be downloaded [Here](https://www.kaggle.com/datasets/jeffreybraun/chipotle-locations). I am specifically insterested in Utah locations so after reading in my Chipotle data I will filter my data to only include Utah rows. This can be done as shown below:
 ```
 import pandas as pd
 
