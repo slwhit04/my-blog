@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "How to Use Pyhigh Python Package to access Elevation"
-description: This post will teach you how to use two different python packages to get elevation for your data.
 image: /assets/img/blog-image.jpg
 ---
+<p class="intro"><span class="dropcap">T</span>his post will teach you how to use Pyhigh to access elevation data .</p>
+
 
 ### Introduction to Pyhigh
 
