@@ -4,21 +4,60 @@ title:  "How to Use Pyhigh Python Package to access Elevation"
 description: This post will teach you how to use Pyhigh to access and add elevation to your data
 image: /assets/img/blog-image.jpg
 ---
-<p class="intro">Pyhigh is a package in Python created by <a href="https://github.com/sgherbst" target="_blank">Steven Herbst</a> on github that allows the user to access elevation data. This package relies on caching to avoid unecessary downloads.To use this package, your data will need to include a latitude column and a longitude column containing latitiude and longitude coordinates respectively.</p>
+<p class="intro">Pyhigh is a package in Python created by <a href="https://github.com/sgherbst" target="_blank">Steven Herbst</a> on github that allows the user to access elevation data. This package relies on caching to avoid unecessary downloads. To use this package, your data will need to include a latitude column and a longitude column containing latitiude and longitude coordinates respectively.</p>
 
 
-### Getting Started
+## Getting Started
 
- To demonstrate how to use Pyhigh I will be working with a dataset of Chipotle locations which can be downloaded [Here](https://www.kaggle.com/datasets/jeffreybraun/chipotle-locations). I am specifically insterested in Utah locations so after reading in my Chipotle data I will filter my data to only include Utah rows. This can be done as shown below:
-```
+To demonstrate how to use Pyhigh I will be working with a dataset of Chipotle locations which can be downloaded [Here](https://www.kaggle.com/datasets/jeffreybraun/chipotle-locations). I am specifically insterested in Utah locations so after reading in my Chipotle data I will filter my data to only include Utah rows. This can be done as shown below:
+
+{%- highlight python-%} 
 import pandas as pd
 
-# Load your dataset
+#Load your dataset
 chipotle_df = pd.read_csv('C:\\Documents\\pythonProject\\blog_tutorial\\chipotle_locations')
-# Filter chipotle data to only include Utah
+#Filter chipotle data to only include Utah
 utah_df = chipotle_df[chipotle_df['state'] == 'Utah']
 
-# View your new df
+#View your new df
 print(utah_df.head())
+{%- endhighlight-%}
 
-```
+
+## Installing and Importing Pyhigh
+
+The First thing you will need to do to use PyHigh is to install it. I use the built in terminal within PyCharm and run the following line of code:
+'''
+pip install pyhigh
+'''
+
+Next you will need to import pyhigh. You can import pyhigh as is however, with larger datasets it is better to use *elevation_batch*. After filtering to only Utah locations, the dataset is small enough that either one would work. However, I will be using elevation_batch in my example. To import elevation_batch use:
+{%- highlight python -%}
+from pyhigh import get_elevation_batch
+{%- endhighlight -%}
+
+## Using Pyhigh
+
+To use pyhigh, you first need to extract each pair of latitude and longitiude coordinates and save them as an variable. 
+{%- highlight python-%} 
+pairs = list(zip(utah_df['latitude'], utah_df['longitude']))
+{%- endhighlight -%}
+
+Next, we will need to use the *get_elevation_batch* function to get the elevation pairs and save them as a new variable.
+{%- highlight python-%} 
+elevations = get_elevation_batch(pairs)
+{%- endhighlight -%}
+
+Now that we have our elevation mapped to our latitude and longitude pairs, we need to add the elevations as a new column and print the first few rows of the data set to unsure everything worked.
+{%- highlight python-%} 
+utah_df['elevation'] = elevations
+
+#View updated utah df
+print(utah_df.head())
+{%- endhighlight -%}
+
+Once you have your dataframe looking the way you want it, you can save your data as a new .csv file.
+
+{%- highlight python-%} 
+utah_df.to_csv('utah_elevations.csv', index=False)
+{%- endhighlight -%}
