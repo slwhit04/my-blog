@@ -9,7 +9,7 @@ image: /assets/img/blog-image.jpg
 
 ## Getting Started
 
-To demonstrate how to use Pyhigh I will be working with a dataset of Chipotle locations which can be downloaded [Here](https://www.kaggle.com/datasets/jeffreybraun/chipotle-locations). I am specifically insterested in Utah locations so after reading in my Chipotle data I will filter my data to only include Utah rows. This can be done as shown below:
+To demonstrate how to use Pyhigh I will be working with a dataset of Chipotle locations which can be downloaded from kaggle using [This Link](https://www.kaggle.com/datasets/jeffreybraun/chipotle-locations). I am specifically insterested in Utah locations so after reading in my Chipotle data I will filter my data to only include Utah rows. This can be done as shown below:
 
 {%- highlight python-%} 
 import pandas as pd
