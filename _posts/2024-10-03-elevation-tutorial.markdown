@@ -28,9 +28,9 @@ print(utah_df.head())
 
 The First thing you will need to do to use PyHigh is to install it. I use the built in terminal within PyCharm and run the following line of code:
 
-'''
+```
 pip install pyhigh
-'''
+```
 
 Next you will need to import pyhigh. You can import pyhigh as is however, with larger datasets it is better to use *elevation_batch*. After filtering to only Utah locations, the dataset is small enough that either one would work. However, I will be using elevation_batch in my example. To import elevation_batch use:
 {%- highlight python -%}
@@ -99,4 +99,6 @@ utah_df.to_csv('utah_elevations.csv', index=False)
 
 {%- endhighlight -%} 
 
-If you have read this far you should now be able to successfully add elevation to your data and be able to visualize your new data! Try following along this tutorial using your own data. *Note that the larger the dataset the longer it will take to get the elevation.* Good luck! ;)
+If you have read this far you should now be able to successfully add elevation to your data and be able to visualize your new data! Try following along this tutorial using your own data. <blockquote>*Note that the larger the dataset the longer it will take to get the elevation.*</blockquote>
+
+Good luck! ;)
