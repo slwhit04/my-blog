@@ -4,3 +4,7 @@ title:  "How to Use Elevation Packages (In Python!)"
 description: This post will teach you how to use two different python packages to get elevation for your data.
 image: /assets/img/blog-image.jpg
 ---
+
+### Introduction to Packages
+
+There are two main Python packages that can be used to get elevation data. They are called "elevation" and "pyhigh". To demonstrate how to use each one I will be working with a dataset of Chipotle locations which can be downloaded [Here](https://www.kaggle.com/datasets/jeffreybraun/chipotle-locations).{% endraw %}. Once downloaded, read in your data using pandas and safe it as a df. I named mine "chiptle_df". 
