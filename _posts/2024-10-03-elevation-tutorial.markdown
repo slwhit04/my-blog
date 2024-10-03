@@ -4,7 +4,7 @@ title:  "How to Use Pyhigh Python Package to access Elevation"
 description: This post will teach you how to use Pyhigh to access and add elevation to your data
 image: /assets/img/blog-image.jpg
 ---
-<p class="intro">Pyhigh is a package in Python created by <a href="https://github.com/sgherbst" target="_blank">Steven Herbst</a> on github that allows the user to access elevation data. This package relies on caching to avoid unecessary downloads. To use this package, your data will need to include a latitude column and a longitude column containing latitiude and longitude coordinates respectively.</p>
+<p class="intro">Pyhigh is a package in Python created by <a href="https://github.com/sgherbst" target="_blank">Steven Herbst</a> on github that allows the user to access elevation data. This package relies on caching to avoid unecessary downloads. To use this package, your data will need to include a latitude column and a longitude column containing latitiude and longitude coordinates respectively.It is also important to note that elevation will me in meters.</p>
 
 
 ## Getting Started
@@ -61,3 +61,41 @@ Once you have your dataframe looking the way you want it, you can save your data
 {%- highlight python-%} 
 utah_df.to_csv('utah_elevations.csv', index=False)
 {%- endhighlight -%}
+
+## Visualizing data
+
+You'll notice that when you open your new csv file that your data doesn't look particuarly nice. You can use another program such as *R Studio* or *something else probably* within Python. To use *something else* ...
+
+## Final Thoughts
+
+ Here is what my final code looks like all together.
+{%- highlight python-%} 
+import pandas as pd
+from pyhigh import get_elevation_batch
+
+# Load your dataset
+chipotle_df = pd.read_csv('C:\\Documents\\pythonProject\\blog_tutorial\\chipotle_locations')
+# Filter chipotle data to only include Utah
+utah_df = chipotle_df[chipotle_df['state'] == 'Utah']
+
+# Check the filtered DataFrame
+print(utah_df.head())
+
+# Extract latitude and longitude pairs
+pairs = list(zip(utah_df['latitude'], utah_df['longitude']))
+
+# Get elevations in batch
+elevations = get_elevation_batch(pairs)
+
+# Add the elevations as a new column
+utah_df['elevation'] = elevations
+
+# View your updated DataFrame
+print(utah_df.head())
+
+# Save data as csv file
+utah_df.to_csv('utah_elevations.csv', index=False)
+
+{%- endhighlight -%} 
+
+If you have read this far you should now be able to successfully add elevation to your data and be able to visualize your new data! 
