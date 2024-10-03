@@ -68,32 +68,32 @@ You'll notice that when you open your new csv file that your data doesn't look p
 
 ## Final Thoughts
 
- Here is what my final code looks like all together.
+Here is what my final code looks like all together.
 {%- highlight python-%} 
 import pandas as pd
 from pyhigh import get_elevation_batch
 
-# Load your dataset
+#Load your dataset
 chipotle_df = pd.read_csv('C:\\Documents\\pythonProject\\blog_tutorial\\chipotle_locations')
-# Filter chipotle data to only include Utah
+#Filter chipotle data to only include Utah
 utah_df = chipotle_df[chipotle_df['state'] == 'Utah']
 
-# Check the filtered DataFrame
+#Check the filtered DataFrame
 print(utah_df.head())
 
-# Extract latitude and longitude pairs
+#Extract latitude and longitude pairs
 pairs = list(zip(utah_df['latitude'], utah_df['longitude']))
 
-# Get elevations in batch
+#Get elevations in batch
 elevations = get_elevation_batch(pairs)
 
-# Add the elevations as a new column
+#Add the elevations as a new column
 utah_df['elevation'] = elevations
 
-# View your updated DataFrame
+#View your updated DataFrame
 print(utah_df.head())
 
-# Save data as csv file
+#Save data as csv file
 utah_df.to_csv('utah_elevations.csv', index=False)
 
 {%- endhighlight -%} 
