@@ -5,7 +5,7 @@ description: This post will teach you how to use Pyhigh to access and add elevat
 image: /assets/img/blog-image.jpg
 ---
 
-<blockquote>Pyhigh is a package in Python created by <a href="https://github.com/sgherbst" target="_blank">Steven Herbst</a> on github that allows the user to access elevation data. This package relies on caching to avoid unecessary downloads. To use this package, your data will need to include a latitude column and a longitude column containing latitiude and longitude coordinates respectively.c*Note that elevation will be in meters*</blockquote>
+<blockquote>Pyhigh is a package in Python created by <a href="https://github.com/sgherbst" target="_blank">Steven Herbst</a> on github that allows the user to access elevation data. This package relies on caching to avoid unecessary downloads. To use this package, your data will need to include a latitude column and a longitude column containing latitiude and longitude coordinates respectively. *Note that elevation will be in meters*</blockquote>
 
   
 
@@ -25,10 +25,11 @@ utah_df = chipotle_df[chipotle_df['state'] == 'Utah']
 print(utah_df.head())
 {%- endhighlight-%}
 
+After filtering your data, there should be five Utah locations in total. 
 
 ## Installing and Importing Pyhigh
 
-The First thing you will need to do to use PyHigh is to install it. I use the built in terminal within PyCharm and run the following line of code:
+The First thing you will need to do to use PyHigh is to install it. I use the built in terminal within PyCharm and ran the line of code *pip install pyhigh* as shown below:
 
 ```
 pip install pyhigh
