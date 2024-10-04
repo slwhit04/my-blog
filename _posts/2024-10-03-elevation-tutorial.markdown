@@ -67,9 +67,6 @@ Once you have your dataframe looking the way you want it, you can save your data
 utah_df.to_csv('utah_elevations.csv', index=False)
 {%- endhighlight -%}
 
-## Visualizing data
-
-You'll notice that when you open your new csv file that your data doesn't look particuarly nice. You can use another program such as *R Studio* or *something else probably* within Python. To use *something else* ...
 
 ## Final Thoughts
 
@@ -104,6 +101,6 @@ utah_df.to_csv('utah_elevations.csv', index=False)
 {%- endhighlight -%} 
 
 If you have read this far you should now be able to successfully add elevation to your data and be able to visualize your new data! Try following along this tutorial using your own data. 
-Note that the larger the dataset the longer it will take to get the elevation.
+*Note that the larger the dataset the longer it will take to get the elevation.*
 
 Good luck! ;)
