@@ -42,17 +42,17 @@ from pyhigh import get_elevation_batch
 
 ## Using Pyhigh
 
-1. To use pyhigh, you first need to extract each pair of latitude and longitiude coordinates and save them as an variable. 
+To use pyhigh, you first need to extract each pair of latitude and longitiude coordinates and save them as an variable. 
 {%- highlight python-%} 
 pairs = list(zip(utah_df['latitude'], utah_df['longitude']))
 {%- endhighlight -%}
 
-2. Next, we will need to use the *get_elevation_batch* function to get the elevation pairs and save them as a new variable.
+Next, we will need to use the *get_elevation_batch* function to get the elevation pairs and save them as a new variable.
 {%- highlight python-%} 
 elevations = get_elevation_batch(pairs)
 {%- endhighlight -%}
 
-3. Now that we have our elevation mapped to our latitude and longitude pairs, we need to add the elevations as a new column and print the first few rows of the data set to unsure everything worked.
+Now that we have our elevation mapped to our latitude and longitude pairs, we need to add the elevations as a new column and print the first few rows of the data set to unsure everything worked.
 {%- highlight python-%} 
 utah_df['elevation'] = elevations
 
@@ -60,17 +60,11 @@ utah_df['elevation'] = elevations
 print(utah_df.head())
 {%- endhighlight -%}
 
-4. Once you have your dataframe looking the way you want it, you can save your data as a new .csv file.
+Once you have your dataframe looking the way you want it, you can save your data as a new .csv file.
 
 {%- highlight python-%} 
 utah_df.to_csv('utah_elevations.csv', index=False)
 {%- endhighlight -%}
-
-
-## Visualize your Data
-
-If you would like to visualize your data with plots or do any EDA I reccommend using Python's matplotlib which involves a simple installation. If you would like to learn more about matplotlib you can follow 
-[This Tutorial](https://www.geeksforgeeks.org/matplotlib-tutorial/)
 
 
 ## Final Thoughts
