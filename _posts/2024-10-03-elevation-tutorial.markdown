@@ -5,7 +5,7 @@ description: This post will teach you how to use Pyhigh to access and add elevat
 image: /assets/img/blog-image.jpg
 ---
 
-<blockquote>Pyhigh is a package in Python created by <a href="https://github.com/sgherbst" target="_blank">Steven Herbst</a> on github that allows the user to access elevation data. This package relies on caching to avoid unecessary downloads. To use this package, your data will need to include a latitude column and a longitude column containing latitiude and longitude coordinates respectively. *Note that elevation will be in meters*</blockquote>
+<blockquote>Pyhigh is a package in Python created by <a href="https://github.com/sgherbst" target="_blank">Steven Herbst</a> on github that allows the user to access elevation data. This package relies on caching to avoid unecessary downloads. To use this package, your data will need to include a latitude column and a longitude column containing latitiude and longitude coordinates respectively. Note that elevation will be in meters. </blockquote>
 
   
 
@@ -42,17 +42,17 @@ from pyhigh import get_elevation_batch
 
 ## Using Pyhigh
 
-To use pyhigh, you first need to extract each pair of latitude and longitiude coordinates and save them as an variable. 
+1. To use pyhigh, you first need to extract each pair of latitude and longitiude coordinates and save them as an variable. 
 {%- highlight python-%} 
 pairs = list(zip(utah_df['latitude'], utah_df['longitude']))
 {%- endhighlight -%}
 
-Next, we will need to use the *get_elevation_batch* function to get the elevation pairs and save them as a new variable.
+2. Next, we will need to use the *get_elevation_batch* function to get the elevation pairs and save them as a new variable.
 {%- highlight python-%} 
 elevations = get_elevation_batch(pairs)
 {%- endhighlight -%}
 
-Now that we have our elevation mapped to our latitude and longitude pairs, we need to add the elevations as a new column and print the first few rows of the data set to unsure everything worked.
+3. Now that we have our elevation mapped to our latitude and longitude pairs, we need to add the elevations as a new column and print the first few rows of the data set to unsure everything worked.
 {%- highlight python-%} 
 utah_df['elevation'] = elevations
 
@@ -60,11 +60,17 @@ utah_df['elevation'] = elevations
 print(utah_df.head())
 {%- endhighlight -%}
 
-Once you have your dataframe looking the way you want it, you can save your data as a new .csv file.
+4. Once you have your dataframe looking the way you want it, you can save your data as a new .csv file.
 
 {%- highlight python-%} 
 utah_df.to_csv('utah_elevations.csv', index=False)
 {%- endhighlight -%}
+
+
+## Visualize your Data
+
+If you would like to visualize your data with plots or do any EDA I reccommend using Python's matplotlib which involves a simple installation. If you would like to learn more about matplotlib you can follow 
+[This Tutorial](https://www.geeksforgeeks.org/matplotlib-tutorial/)
 
 
 ## Final Thoughts
@@ -101,5 +107,6 @@ utah_df.to_csv('utah_elevations.csv', index=False)
 
 If you have read this far you should now be able to successfully add elevation to your data and be able to visualize your new data! Try following along this tutorial using your own data. 
 *Note that the larger the dataset the longer it will take to get the elevation as it goes through each longitude and latitude pair one at a time and downloads the elevation*
+
 
 Good luck! ;)
