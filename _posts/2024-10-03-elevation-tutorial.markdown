@@ -105,7 +105,7 @@ utah_df.to_csv('utah_elevations.csv', index=False)
 
 If you have read this far you should now be able to successfully add elevation to your data and be able to visualize your new data! Here is a simple plot I created to illustrate elevation by location using matplotlib and seaborn packages in python.
 
-![Figure]({{site.url}}/{{site.baseurl}}/assets/img/figure_1.png)
+![Figure](./assets/img/figure_1.png)
 
 Try following along this tutorial using your own data to add and visualize elevation!
 
