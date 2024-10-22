@@ -5,10 +5,10 @@ description: This post will teach you how to use Pyhigh to access and add elevat
 image: /assets/img/blog-image.jpg
 ---
 
-<blockquote> When working with locations, it is often useful to know some details about those locations as theses variables could potentially be affecting your results. One such variable is elevation. Elevation can affect all sorts of things with various sets of data. Elevaiton can change how a runner or athlete performs, influence how crops grow, help determine flood risks and so much more. However, your data might not come with elevation already attatched. This post will teach you an easy way to attatch elevation to your data using a Python package called Pyhigh. 
+<blockquote> When working with locations, it is often useful to know some details about those locations as theses variables could potentially be affecting your results. One such variable is elevation. Elevation can affect all sorts of things with various sets of data. Elevaiton can change how a runner or athlete performs, influence how crops grow, help determine flood risks and so much more. However, your data might not come with elevation already attatched. This post will teach you an easy way to attatch elevation to your data using a Python package called Pyhigh. </blockquote>
   
   
-Pyhigh is a package in Python created by <a href="https://github.com/sgherbst" target="_blank">Steven Herbst</a> on github that allows the user to access elevation data. This package relies on caching to avoid unnecessary downloads. To use this package, your data will need to include a latitude column and a longitude column containing latitude and longitude coordinates respectively. Note that elevation will be in meters. </blockquote>
+<blockquote> Pyhigh is a package in Python created by <a href="https://github.com/sgherbst" target="_blank">Steven Herbst</a> on github that allows the user to access elevation data. This package relies on caching to avoid unnecessary downloads. To use this package, your data will need to include a latitude column and a longitude column containing latitude and longitude coordinates respectively. Note that elevation will be in meters. </blockquote>
 
   
 
