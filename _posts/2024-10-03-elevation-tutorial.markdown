@@ -5,7 +5,10 @@ description: This post will teach you how to use Pyhigh to access and add elevat
 image: /assets/img/blog-image.jpg
 ---
 
-<blockquote>Pyhigh is a package in Python created by <a href="https://github.com/sgherbst" target="_blank">Steven Herbst</a> on github that allows the user to access elevation data. This package relies on caching to avoid unecessary downloads. To use this package, your data will need to include a latitude column and a longitude column containing latitiude and longitude coordinates respectively. Note that elevation will be in meters. </blockquote>
+<blockquote> When working with locations, it is often useful to know some details about those locations as theses variables could potentially be affecting your results. One such variable is elevation. Elevation can affect all sorts of things with various sets of data. Elevaiton can change how a runner or athlete performs, influence how crops grow, help determine flood risks and so much more. However, your data might not come with elevation already attatched. This post will teach you an easy way to attatch elevation to your data using a Python package called Pyhigh. 
+  
+  
+Pyhigh is a package in Python created by <a href="https://github.com/sgherbst" target="_blank">Steven Herbst</a> on github that allows the user to access elevation data. This package relies on caching to avoid unnecessary downloads. To use this package, your data will need to include a latitude column and a longitude column containing latitude and longitude coordinates respectively. Note that elevation will be in meters. </blockquote>
 
   
 
@@ -99,7 +102,14 @@ utah_df.to_csv('utah_elevations.csv', index=False)
 
 {%- endhighlight -%} 
 
-If you have read this far you should now be able to successfully add elevation to your data and be able to visualize your new data! Try following along this tutorial using your own data. 
+
+If you have read this far you should now be able to successfully add elevation to your data and be able to visualize your new data! Here is a simple histogram I created to illustrate elevation by location using matplotlib and seaborn packages in python.
+
+![Figure]({{site.url}}/{{site.baseurl}}/assets/img/figure_1.png)
+
+Try following along this tutorial using your own data to add and visualize elevation!
+
+
 *Note that the larger the dataset the longer it will take to get the elevation as it goes through each longitude and latitude pair one at a time and downloads the elevation*
 
 
