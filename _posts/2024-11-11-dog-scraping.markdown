@@ -19,15 +19,15 @@ To collect my dog data, I scraped all the dogs, aswell as their breed info, from
 
 /assets/img/blog-image.jpg
 
+	<img src="{{site.url}}/{{site.baseurl}}/assets/img/touring.jpg" alt=""> 
+	<figcaption>Figure 1. - This is an example figcaption</figcaption>
+
 Explain first few steps and general concepts
 
 ## The Results
 
 Summary statistics, summary graphics, and information about final dataset (e.g., total sample size, counts of categorical variables, numerical summaries of numeric variables)
 
-'''
-test
-'''
 
 {%- highlight python -%}
 pass
