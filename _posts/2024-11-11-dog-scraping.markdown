@@ -24,17 +24,22 @@ To collect my dog data, I scraped all the dogs, aswell as their breed info, from
 
 There are several different packages that can help with webscraping, however, selenium allows for automated webscraping and is what I used to scrape the AKC website. There are many approaches to using selenium and it varies per website, nonetheless, there are a few universal steps that are taken when using selenium for any website. 
 
-1. The first step with any python code is to install and import the packages that you need
-    a. For Selenium, the base packages you will need is:
-   {%- highlight python -%} from selenium import webdriver {%- endhighlight -%}
-   {%- highlight python -%} from webdriver_manager.chrome import ChromeDriverManag {%- endhighlight -%}
-2. The next step is to set up your Selenium webdriver
-    a. The basic script is as follows:
-   {%- highlight python -%} driver = webdriver.Chrome()  # or webdriver.Firefox()
-driver.get("http://example.com")
-driver.quit()
-{%- endhighlight -%}
-3. Once you have the base packages and scripts set up, your code will vary greatly depending on the website you are trying to scrape
+1. The first step with any Python code is to install and import the packages that you need.
+   - For Selenium, the base packages you will need are:
+     ```python
+     from selenium import webdriver
+     from webdriver_manager.chrome import ChromeDriverManager
+     ```
+
+2. The next step is to set up your Selenium webdriver.
+   - The basic script is as follows:
+     ```python
+     driver = webdriver.Chrome()  # or webdriver.Firefox()
+     driver.get("http://example.com")
+     driver.quit()
+     ```
+
+3. Once you have the base packages and scripts set up, your code will vary greatly depending on the website you are trying to scrape.
 
 Example of how I set up my Selenium WebDriver
 {%- highlight python -%}
