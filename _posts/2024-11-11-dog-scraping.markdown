@@ -15,7 +15,9 @@ image: /assets/img/blog-image.jpg
 
 ## How I got Started
 
-Explain good ethics. [This Link](https://www.akc.org/dog-breeds/). 
+To collect my dog data, I scraped all the dogs, aswell as their breed info, from the American Kennel Club official website. To ensure ethical scraping practices, I first checked the website's robots.txt file which includes the website's policy on scraping data. 
+
+/assets/img/blog-image.jpg
 
 Explain first few steps and general concepts
 
@@ -23,6 +25,9 @@ Explain first few steps and general concepts
 
 Summary statistics, summary graphics, and information about final dataset (e.g., total sample size, counts of categorical variables, numerical summaries of numeric variables)
 
+'''
+test
+'''
 
 {%- highlight python -%}
 pass
