@@ -53,7 +53,7 @@ Summary statistics, summary graphics, and information about final dataset (e.g.,
 
 ## Continue Learning
 
-[This Link]([https://www.akc.org/dog-breeds/](https://www.geeksforgeeks.org/selenium-python-tutorial/))
+[geeksforgeeks]([https://www.geeksforgeeks.org/selenium-python-tutorial/))
 
 
 Good luck! ;)
