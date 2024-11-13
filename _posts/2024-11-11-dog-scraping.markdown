@@ -17,7 +17,7 @@ image: /assets/img/blog-image.jpg
 
 To collect my dog data, I scraped all the dogs, aswell as their breed info, from the American Kennel Club official website. To ensure ethical scraping practices, I first checked the website's robots.txt file which includes the website's policy on scraping data. 
 
-![Description of Image](/assets/img/blog-image.jpg)
+![Description of Image](/assets/img/diving-horse.jpg)
 
 /assets/img/blog-image.jpg
 
