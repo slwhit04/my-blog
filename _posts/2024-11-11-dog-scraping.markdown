@@ -15,24 +15,41 @@ image: /assets/img/blog-image.jpg
 
 ## How I got Started
 
-To collect my dog data, I scraped all the dogs, aswell as their breed info, from the American Kennel Club official website. To ensure ethical scraping practices, I first checked the website's robots.txt file which includes the website's policy on scraping data. 
+To collect my dog data, I scraped all the dogs, aswell as their breed info, from the [American Kennel Club official website]([https://www.akc.org/dog-breeds/](https://www.geeksforgeeks.org/selenium-python-tutorial/)) To ensure ethical scraping practices, I first checked the website's robots.txt file which includes the website's policy on scraping data. 
 
 ![this will eventually be a dog](/assets/img/diving-horse.jpg)
 
 /assets/img/blog-image.jpg
 
-	<This is an example figcaption</figcaption>
 
-Explain first few steps and general concepts
+Explain that I used selenium and how to use it
+
+1. List Item
+2. Longer List Item
+    1. Nested OL Item
+    2. Another thing
+
+Example of how I set up Selenium WebDriver
+{%- highlight python -%}
+pass
+{%- endhighlight -%}
+
+
+## Cleaning
+
+Some general concepts of cleaning data. Explain what I used specifically and why.
+
+{%- highlight python -%}
+pass
+{%- endhighlight -%}
 
 ## The Results
 
 Summary statistics, summary graphics, and information about final dataset (e.g., total sample size, counts of categorical variables, numerical summaries of numeric variables)
 
 
-{%- highlight python -%}
-pass
-{%- endhighlight -%}
+	<This is an example >
+
 
 ## Continue Learning
 
