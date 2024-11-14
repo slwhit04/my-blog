@@ -64,23 +64,43 @@ driver.get("https://www.akc.org/dog-breeds/")
 
 ## Cleaning
 
-Some general concepts of cleaning data. Explain what I used specifically and why.
+Once you have your scraped data, you will almost always need to clean it before performing EDA. Within the pandas package alone, there are dozens of ways to manipulate your data. For example, there are functions to drop all NA values, drop duplicates, remove columns, rename columns, do string manipulation, and more.[This website]([https://realpython.com/python-data-cleaning-numpy-pandas/) covers how to clean data using Python's pandas and NumPy libraries.
 
-{%- highlight python -%}
-pass
-{%- endhighlight -%}
+For my own data, I used *the drop_duplicates()* function and *str.replace*
+
 
 ## The Results
 
-Summary statistics, summary graphics, and information about final dataset (e.g., total sample size, counts of categorical variables, numerical summaries of numeric variables)
+Once I was done cleaning and had dropped all duplicates, there were a total of 290 rows and below I have listed the summary statistics for numeric valriables:
 
 
-	<This is an example >
+	Summary statistics for numeric variables:
+           Height  Life Expectancy
+	count  216.000000       280.000000
+	mean    19.303819        12.739286
+	std      6.010377         1.652052
+	min      6.500000         6.500000
+	25%     14.000000        12.000000
+	50%     19.500000        13.000000
+	75%     24.812500        13.500000
+	max     31.000000        18.000000
+
+Additionally, I ran created three plots to help answer my question as to whether small dogs live longer.
+
+AKC lists a range for height, weight, and life expectancy so before I could do my EDA, I found the average of each of those values for each dog breed. Once that was done, I used *matplotlib* and *seaborn* to create the following visuals:
+
+![dog weight and life expectancy](/assets/img/diving-horse.jpg)
+
+![dog height and life expectancy](/assets/img/diving-horse.jpg)
+
+![life expectancy by breed](/assets/img/diving-horse.jpg)
 
 
 ## Continue Learning
 
-[geeksforgeeks]([https://www.geeksforgeeks.org/selenium-python-tutorial/))
+For more detail on how to use selenium I reccommend following [geeksforgeeks's]([https://www.geeksforgeeks.org/selenium-python-tutorial/) tutorial.
+
+If you would like a better look at my code, you can access it at my [github repo].([https://www.geeksforgeeks.org/selenium-python-tutorial/)
 
 
 Good luck! ;)
