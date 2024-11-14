@@ -11,15 +11,14 @@ image: /assets/img/blog-image.jpg
   
 <blockquote> I love dogs and have always been interested in them and I’ve heard that larger dogs don’t live as long as smaller dogs due to health complications. I decided to combine two of my interests, dogs and statstics, to explore if a dog’s size effects its life expectancy.</a>  </blockquote>
 
+
+![Source:https://www.akc.org/dog-breeds/cairn-terrier/](assets/img/Cairn-Terrier-puppies.avif)
+
   
 
 ## How I got Started
 
 To collect my dog data, I scraped all the dogs, aswell as their breed info, from the [American Kennel Club official website]([https://www.akc.org/dog-breeds/](https://www.geeksforgeeks.org/selenium-python-tutorial/)) To ensure ethical scraping practices, I first checked the website's robots.txt file which includes the website's policy on scraping data. 
-
-![this will eventually be a dog](/assets/img/diving-horse.jpg)
-
-/assets/img/blog-image.jpg
 
 
 There are several different packages that can help with webscraping, however, selenium allows for automated webscraping and is what I used to scrape the AKC website. There are many approaches to using selenium and it varies per website, nonetheless, there are a few universal steps that are taken when using selenium for any website. 
