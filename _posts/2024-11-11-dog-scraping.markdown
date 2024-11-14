@@ -18,7 +18,7 @@ image: /assets/img/blog-image.jpg
 
 ## How I got Started
 
-To collect my dog data, I scraped all the dogs, aswell as their breed info, from the [American Kennel Club official website]([https://www.akc.org/dog-breeds/](https://www.geeksforgeeks.org/selenium-python-tutorial/)) To ensure ethical scraping practices, I first checked the website's robots.txt file which includes the website's policy on scraping data. 
+To collect my dog data, I scraped all the dogs, aswell as their breed info, from the [American Kennel Club official website](https://www.akc.org/dog-breeds/](https://www.geeksforgeeks.org/selenium-python-tutorial/)) To ensure ethical scraping practices, I first checked the website's robots.txt file which includes the website's policy on scraping data. 
 
 
 There are several different packages that can help with webscraping, however, selenium allows for automated webscraping and is what I used to scrape the AKC website. There are many approaches to using selenium and it varies per website, nonetheless, there are a few universal steps that are taken when using selenium for any website. 
@@ -63,7 +63,7 @@ driver.get("https://www.akc.org/dog-breeds/")
 
 ## Cleaning
 
-Once you have your scraped data, you will almost always need to clean it before performing EDA. Within the pandas package alone, there are dozens of ways to manipulate your data. For example, there are functions to drop all NA values, drop duplicates, remove columns, rename columns, do string manipulation, and more.[This website]([https://realpython.com/python-data-cleaning-numpy-pandas/) covers how to clean data using Python's pandas and NumPy libraries.
+Once you have your scraped data, you will almost always need to clean it before performing EDA. Within the pandas package alone, there are dozens of ways to manipulate your data. For example, there are functions to drop all NA values, drop duplicates, remove columns, rename columns, do string manipulation, and more.[This website](https://realpython.com/python-data-cleaning-numpy-pandas/) covers how to clean data using Python's pandas and NumPy libraries.
 
 For my own data, I used *the drop_duplicates()* function and *str.replace*
 
@@ -99,9 +99,9 @@ From these plots, you can see that smaller dogs and consequently breeds with sma
 
 ## Continue Learning
 
-For more detail on how to use selenium I reccommend following [geeksforgeeks's]([https://www.geeksforgeeks.org/selenium-python-tutorial/) tutorial.
+For more detail on how to use selenium I reccommend following [geeksforgeeks's](https://www.geeksforgeeks.org/selenium-python-tutorial/) tutorial.
 
-If you would like a better look at my code, you can access it at my [github repo]([https://github.com/slwhit04/my_blog_code/tree/main).
+If you would like a better look at my code, you can access it at my [github repo](https://github.com/slwhit04/my_blog_code/tree/main).
 
 
 Good luck! ;)
