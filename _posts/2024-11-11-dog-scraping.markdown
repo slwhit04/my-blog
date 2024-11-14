@@ -89,11 +89,13 @@ Additionally, I ran created three plots to help answer my question as to whether
 
 AKC lists a range for height, weight, and life expectancy so before I could do my EDA, I found the average of each of those values for each dog breed. Once that was done, I used *matplotlib* and *seaborn* to create the following visuals:
 
-![dog weight and life expectancy](/assets/img/diving-horse.jpg)
+![dog weight and life expectancy](assets/img/dog_weight_and_life_expectancy.png)
 
-![dog height and life expectancy](/assets/img/diving-horse.jpg)
+![dog height and life expectancy](assets/img/dog_height_and_life_expectancy.jpg)
 
-![life expectancy by breed](/assets/img/diving-horse.jpg)
+![life expectancy by breed](assets/img/life_expectancy_by_breed_group.png)
+
+From these plots, you can see that smaller dogs and consequently breeds with smaller dogs, live longer than larger working class dog breeds.
 
 
 ## Continue Learning
