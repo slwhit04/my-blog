@@ -100,7 +100,7 @@ AKC lists a range for height, weight, and life expectancy so before I could do m
 
 For more detail on how to use selenium I reccommend following [geeksforgeeks's]([https://www.geeksforgeeks.org/selenium-python-tutorial/) tutorial.
 
-If you would like a better look at my code, you can access it at my [github repo].([https://www.geeksforgeeks.org/selenium-python-tutorial/)
+If you would like a better look at my code, you can access it at my [github repo]([https://github.com/slwhit04/my_blog_code/tree/main).
 
 
 Good luck! ;)
