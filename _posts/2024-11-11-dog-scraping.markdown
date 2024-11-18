@@ -88,7 +88,11 @@ Additionally, I ran created three plots to help answer my question as to whether
 
 AKC lists a range for height, weight, and life expectancy so before I could do my EDA, I found the average of each of those values for each dog breed. Once that was done, I used *matplotlib* and *seaborn* to create the following visuals:
 
-![dog weight and life expectancy]({{site.url}}/{{site.baseurl}}/assets/img/dog_weight_and_life_expectancy.png)
+<figure>
+
+<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/dog_weight_and_life_expectancy.png' alt = "" style = "width: 60%;"/>
+
+</figure>
 
 ![dog height and life expectancy](https://slwhit04.github.io/my-blog/blog/dog-scraping.com/assets/img/dog_height_and_life_expectancy.jpg)
 
