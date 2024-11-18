@@ -90,7 +90,7 @@ AKC lists a range for height, weight, and life expectancy so before I could do m
 
 ![dog weight and life expectancy]({{site.url}}/{{site.baseurl}}/assets/img/dog_weight_and_life_expectancy.png)
 
-![dog height and life expectancy](assets/img/dog_height_and_life_expectancy.jpg)
+![dog height and life expectancy](https://slwhit04.github.io/my-blog/blog/dog-scraping.com/assets/img/dog_height_and_life_expectancy.jpg)
 
 ![life expectancy by breed](assets/img/life_expectancy_by_breed_group.png)
 
