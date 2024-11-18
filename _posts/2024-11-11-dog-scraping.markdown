@@ -12,8 +12,13 @@ image: /assets/img/blog-image.jpg
 <blockquote> I love dogs and have always been interested in them and I’ve heard that larger dogs don’t live as long as smaller dogs due to health complications. I decided to combine two of my interests, dogs and statstics, to explore if a dog’s size effects its life expectancy.</a>  </blockquote>
 
 
-![Source:https://www.akc.org/dog-breeds/cairn-terrier/](assets/img/Cairn-Terrier-puppies.avif)
 
+
+<figure>
+
+<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/Cairn-Terrier-puppies.avif' alt = "" style = "width: 80%;"/>
+
+</figure>
   
 
 ## How I got Started
@@ -90,13 +95,23 @@ AKC lists a range for height, weight, and life expectancy so before I could do m
 
 <figure>
 
-<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/dog_weight_and_life_expectancy.png' alt = "" style = "width: 60%;"/>
+<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/dog_weight_and_life_expectancy.png' alt = "" style = "width: 80%;"/>
 
 </figure>
 
-![dog height and life expectancy](https://slwhit04.github.io/my-blog/blog/dog-scraping.com/assets/img/dog_height_and_life_expectancy.jpg)
 
-![life expectancy by breed](assets/img/life_expectancy_by_breed_group.png)
+<figure>
+
+<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/dog_height_and_life_expectancy.jpg' alt = "" style = "width: 80%;"/>
+
+</figure>
+
+<figure>
+
+<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/life_expectancy_by_breed_group.png' alt = "" style = "width: 80%;"/>
+
+</figure>
+
 
 From these plots, you can see that smaller dogs and consequently breeds with smaller dogs, live longer than larger working class dog breeds.
 
