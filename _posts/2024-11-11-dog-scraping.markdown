@@ -2,7 +2,7 @@
 layout: post
 title:  "Do Small Dogs Live Longer?"
 description: In this post I explain my process of scraping data from the web while exploring the question of how height affects a dog's life expectancy.
-image:"https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/dog_banner.jpg"
+image: /assets/img/dog_banner.jpg
 ---
 
 
