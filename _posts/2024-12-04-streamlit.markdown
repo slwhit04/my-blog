@@ -16,16 +16,16 @@ Using streamlit, I created an app to help users quickly learn about different do
 
 <figure>
 
-<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/Cairn-Terrier-puppies.avif' alt = "" style = "width: 80%;"/>
+<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/dogs.jpg' alt = "" style = "width: 80%;"/>
 
 </figure>
   
 
-## using my streamlit app
+## Using My Streamlit App
 
 As aforementioned, my app consists of several interactive elements. These include filters, a dataset overview, visualizations and a comparative analysis tab.
 
-### Filter Tab
+#### Filter Tab
 
 * You can add the following filters:
   * Breed Group
@@ -36,40 +36,35 @@ As aforementioned, my app consists of several interactive elements. These includ
 
  <figure>
 
-<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/Cairn-Terrier-puppies.avif' alt = "" style = "width: 80%;"/>
+<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/filter.png' alt = "" style = "width: 80%;"/>
 
 </figure>
 
-### Dataset Overview Tab
+#### Dataset Overview Tab
 
 The dataset overview lists all the different dog breeds and their data and as you explore my app you can see that the dataset responds to the filters applied. There is also an option to download the data
 
 
-### Visualization Tab
+#### Visualization Tab
 
 I have three different plots under the visualization tab to answer my question as to how a dog’s size affects its life expectancy. Each graph is interactive and responds to the filters that are applied, the user can also zoom in and out on the graphs. I included one of my plots below:
 
 <figure>
 
-<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/dog_weight_and_life_expectancy.png' alt = "" style = "width: 80%;"/>
+<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/visualization.png' alt = "" style = "width: 80%;"/>
 
 </figure>
 
 
+This plot is a box plot of the different breed types and their average life expectancy. Once again you can see that the larger breed groups have shorter life spans than the smaller breed groups such as the toy group or terrier group. 
 
-The first plot is a scatterplot which shows the relationship between a dog’s weight and its life expectancy. I included a red regression line to clearly show the trend that as a dog’s weight increases, the life expectancy drops. 
-
-The second plot is very similar to the first but shows the relationship between height and life expectancy instead of weight. Here you can see the trend is not as strong, but there is still an overall negative that illustrates how as a dog’s height increases their life expectancy drops.
-
-The third plot is a box plot of the different breed types and their average life expectancy. Once again you can see that the larger breed groups have shorter life spans than the smaller breed groups such as the toy group or terrier group. 
-
-### Comparative Analysis Tab
+#### Comparative Analysis Tab
 
 The last tab allows you to do a breed comparison of two different dog breeds so you can directly see how the two breeds differ.
 
 <figure>
 
-<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/dog_weight_and_life_expectancy.png' alt = "" style = "width: 80%;"/>
+<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/dog_compare.png' alt = "" style = "width: 80%;"/>
 
 </figure>
 
