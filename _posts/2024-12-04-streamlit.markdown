@@ -34,7 +34,7 @@ As aforementioned, my app consists of several interactive elements. These includ
 
  <figure>
 
-<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/filter.png' alt = "" style = "width: 100%;"/>
+<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/filter.png' alt = "" style = "width: 70%;"/>
 
 </figure>
 
@@ -69,7 +69,11 @@ The last tab allows you to do a breed comparison of two different dog breeds so 
 
 ## Final Thoughts
 
-I hope that all my fellow dog lovers find my app interesting and are able to get some use out of it. I personally enjoyed being able to quickly compare the different breeds and seeing how the plots changed based on the filters I chose. I encourage everyone who looks at my app or reads this post to take the time to explore the features of my app and to discover new things about your favorite dog breeds. 
+I hope that all my fellow dog lovers find my app interesting and are able to get some use out of it. I personally enjoyed being able to quickly compare the different breeds and seeing how the plots changed based on the filters I chose. It’s amazing how data visualization and interactivity can make decision-making not only easier but also more enjoyable.
+
+This project also reinforced my belief in the power of tools like Streamlit to make data science accessible to everyone, regardless of their coding background. Whether you’re choosing your next pet or simply exploring your curiosity about dogs, my app offers a fun and engaging way to dive into the data.
+
+I encourage everyone who looks at my app or reads this post to take the time to explore the features of my app and to discover new things about your favorite dog breeds or maybe discover a new breed you had never heard of before! 
 
 If you would like a better look at my code and how I set up my streamlit app, you can access it at my [github repo](https://github.com/slwhit04/streamlit2).
 
