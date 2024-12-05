@@ -51,16 +51,16 @@ I have three different plots under the visualization tab to answer my question a
 
 <figure>
 
-<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/visualization.png' alt = "" style = "width: 80%;"/>
+<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/visualization2.png' alt = "" style = "width: 80%;"/>
 
 </figure>
 
 
-This plot is a box plot of the different breed types and their average life expectancy. Once again you can see that the larger breed groups have shorter life spans than the smaller breed groups such as the toy group or terrier group. 
+This plot is a scatterplot which shows the relationship between a dog’s weight and its life expectancy. I included a blue regression line to clearly show the trend that as a dog’s weight increases, the life expectancy drops. On the right side there is also a key which has a different color dot to represent the different breed groups. In the app, the user may also filter data which the graph will adjust to and the user may also zoom in and out and scroll to view different dots more closely. The user may also hover over a specific dot and can see which dog the specific data point represents
 
 #### Comparative Analysis Tab
 
-The last tab allows you to do a breed comparison of two different dog breeds so you can directly see how the two breeds differ.
+The last tab allows you to do a breed comparison of two different dog breeds so you can directly see how the two breeds differ. In the example below I chose to compare the rottweiler vs the doberman. Both are similar breeds that were bred for the same purpose, have the same country of origin (Germany), and share similar coat markings. Using the comparative analysis tab one can quickly see some of key differences between the two breeds.
 
 <figure>
 
@@ -69,10 +69,9 @@ The last tab allows you to do a breed comparison of two different dog breeds so 
 </figure>
 
 
-
 ## Final Thoughts
 
-I am not sure of all the reasons why larger dogs do not live as long as their smaller counterparts, I know that there are sometimes issues with the heart being unable to pump blood all the way through the larger dog’s body. That being said, I am sure there are countless other reasons as well that I encourage you to research on your own either by doing a quick google search, or running your own eda to answer your questions. 
+I hope that all my fellow dog lovers find my app interesting and are able to get some use out of it. I personally enjoyed being able to quickly compare the different breeds and seeing how the plots changed based on the filters I chose. I encourage everyone who looks at my app or reads this post to take the time to explore the features of my app and to discover new things about your favorite dog breeds. 
 
 If you would like a better look at my code and how I set up my streamlit app, you can access it at my [github repo](https://github.com/slwhit04/streamlit2).
 
