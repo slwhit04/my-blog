@@ -6,12 +6,10 @@ image: /assets/img/dog_banner.jpg
 ---
 
 
-I consider myself an avid pet lover and I especially love dogs. Growing up, my family always had at least two dogs, sometimes three at a time and they were often all different breeds of dogs. Now that I am older, I am at a point in my life where I will be able to get my own dog and will need to decide on what kind of dog I want. 
+I consider myself an avid pet lover and I especially love dogs. Growing up, my family always had at least two dogs, sometimes three at a time and they were often all different breeds of dogs. Now that I am older, I am at a point in my life where I will be able to get my own dog and will need to decide on what kind of dog I want. This is a big decision as there are hundreds of different dog breeds to choose from, each with their own distinct qualities. To help me with this choice, I created a "dog breed insights" app to help in visualizing my options. 
   
   
-Using streamlit, I created an app to help users quickly learn about different dog breeds and to be able to compare their height, weight and life expectancy. Users can filter to specific dog breeds, breed types, as well as filter the average height, weight and life expectancy for the breed.
-
-
+Using streamlit, I created an app which you view [here](https://slwhit04-dog-data.streamlit.app/). This app was designed to help myself, as well as other dog lovers, quickly learn about different dog breeds and to be able to compare their height, weight and life expectancy. Users can filter to specific dog breeds, breed types, as well as filter the average height, weight and life expectancy for the breed.
 
 
 <figure>
@@ -36,7 +34,7 @@ As aforementioned, my app consists of several interactive elements. These includ
 
  <figure>
 
-<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/filter.png' alt = "" style = "width: 80%;"/>
+<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/filter.png' alt = "" style = "width: 100%;"/>
 
 </figure>
 
@@ -51,7 +49,7 @@ I have three different plots under the visualization tab to answer my question a
 
 <figure>
 
-<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/visualization2.png' alt = "" style = "width: 80%;"/>
+<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/scatterplot.png' alt = "" style = "width: 100%;"/>
 
 </figure>
 
