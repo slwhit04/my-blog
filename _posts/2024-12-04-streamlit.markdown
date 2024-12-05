@@ -16,7 +16,7 @@ Using streamlit, I created an app to help users quickly learn about different do
 
 <figure>
 
-<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/dogs.jpg' alt = "" style = "width: 80%;"/>
+<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/dogs.jpg' alt = "" style = "width: 90%;"/>
 
 </figure>
   
@@ -64,7 +64,7 @@ The last tab allows you to do a breed comparison of two different dog breeds so 
 
 <figure>
 
-<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/dog_compare.png' alt = "" style = "width: 80%;"/>
+<img src='https://raw.githubusercontent.com/slwhit04/my-blog/refs/heads/main/assets/img/dog_compare.png' alt = "" style = "width: 100%;"/>
 
 </figure>
 
