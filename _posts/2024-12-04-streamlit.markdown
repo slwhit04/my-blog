@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Barking Up the Data Tree: Do Small Dogs Live Longer?"
-description: In this post I explain my process of scraping data from the web while exploring the question of how height affects a dog's life expectancy.
+title:  "Life Expectancy Goes to the Dogs: A Streamlit Data Adventure"
+description: In this post I show how I created a streamlit app to help learn about different dog breeds and explore how their height and weight affects their life expectancy. 
 image: /assets/img/dog_banner.jpg
 ---
 
